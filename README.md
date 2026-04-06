@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: domain-intel
 description: Passive domain reconnaissance using Python stdlib only. Subdomain discovery, SSL certificate inspection, WHOIS lookups, DNS records, domain availability checks, and bulk multi-domain analysis. No API keys needed, no dependencies. Use when researching domains, checking competitors, verifying SSL certs, finding subdomains, or checking if a domain is available.
@@ -50,3 +54,13 @@ All output is structured JSON.
 - **Domain shopping:** Bulk-check if domain names are available
 - **Due diligence:** WHOIS lookup on a domain before doing business
 - **Infrastructure mapping:** DNS records reveal email providers, CDNs, hosting
+
+## Installation
+
+```bash
+cp -r domain-intel/ ~/.openclaw/workspace/skills/domain-intel/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
